@@ -6,8 +6,13 @@ html {
   font-family: "Courier New", Courier, monospace;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
-  background-color: cadetblue;
+  background-color: #2d3142;
   padding: 20px;
 }
 
@@ -21,5 +26,33 @@ h1 {
 }
 
 .article {
+  background-color: #d8d5db;
   width: 75vw;
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #adacb5;
+  padding: 10px;
+  width: 25vw;
+}
+
+.nav li {
+  list-style-type: none;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #2d3142;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+}
+
+ul.nav {
+  padding: 0;
+  padding-left: 5px;
 }
